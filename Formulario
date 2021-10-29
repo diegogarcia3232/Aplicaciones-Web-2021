@@ -62,3 +62,72 @@
   <input type="radio" id="opcion3" name="opcion3" value="movida larga">
 </form>
 
+
+
+-----CSS--------------
+body{
+    height: 100%;
+    font-family: 'Gill Sans, sans serif'; 
+    background-image: linear-gradient(red, rgb(81, 255, 0));
+ }
+
+.contact_form{
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #ffc400;
+    padding-left: 30px;
+}
+
+input{
+    background-color: #15ff00;
+    width: 408px;
+    height: 40px;
+    border-radius:5px;
+    border-style: solid;
+    border-width:1px;
+    border-color: #ab4493;
+    
+    margin-top: 10px; 
+    padding-left: 10px;
+    margin-bottom: 20px;
+    }
+
+textarea{
+    background-color: #af1d1d;
+    width: 405px;
+    height: 150px;
+    border-radius:5px;
+    border-style: solid;
+    border-width:1px;
+    border-color:#5eff00;
+    margin-top: 10px; 
+    padding-left:10px;
+    margin-bottom: 20px;
+    padding-top:15px;
+}
+
+label{
+    display:block;
+    float: center;
+}
+
+button{
+    height:45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    text-transform: uppercase;
+    background-color: s#08ffde;
+    border-color: #ff5e00;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
